@@ -5,7 +5,6 @@ import Monitor from "./img/monitor.png";
 import Refresh from "./img/refresh.png";
 import Message from "./img/message.png";
 import Box from "./img/box.png";
-import Card from "./Card"
 import styles from "./index.module.css";
 
 function Services() {
@@ -24,6 +23,7 @@ function Services() {
       <div className={styles.slider}>
         <div className={styles.elements}>
           <div className={styles.element}>
+            <div className={styles.line} />
             <div className={styles.content}>
               <div className={styles.circle}>
                 <img src={SunGlasses} className={styles.img} />
@@ -36,6 +36,7 @@ function Services() {
             </div>
           </div>
           <div className={styles.element}>
+            <div className={styles.line} />
             <div className={styles.content}>
               <div className={styles.circle}>
                 <img src={Message} className={styles.img} />
@@ -48,6 +49,7 @@ function Services() {
             </div>
           </div>
           <div className={styles.element}>
+            <div className={styles.line} />
             <div className={styles.content}>
               <div className={styles.circle}>
                 <img src={Download} className={styles.img} />
@@ -59,9 +61,8 @@ function Services() {
               </p>
             </div>
           </div>
-          {/* <Card title="WordPress" img={Download} /> */}
-
           <div className={styles.element}>
+            <div className={styles.line} />
             <div className={styles.content}>
               <div className={styles.circle}>
                 <img src={Box} className={styles.img} />
@@ -74,6 +75,7 @@ function Services() {
             </div>
           </div>
           <div className={styles.element}>
+            <div className={styles.line} />
             <div className={styles.content}>
               <div className={styles.circle}>
                 <img src={Monitor} className={styles.img} />
@@ -86,6 +88,7 @@ function Services() {
             </div>
           </div>
           <div className={styles.element}>
+            <div className={styles.line} />
             <div className={styles.content}>
               <div className={styles.circle}>
                 <img src={Refresh} className={styles.img} />

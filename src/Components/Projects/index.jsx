@@ -16,34 +16,34 @@ function Projects() {
             </div>
             <div className={styles.slider}>
                 <div className={styles.slides}>
-                    <div className={styles.slide} id="slide1">
+                    <div className={styles.projectSlide} id="slide1">
                         <a src="https://preview.colorlib.com/theme/expert/images/img_1.jpg.webp" className={styles.images}>
-                            <div className={styles.wotkText}>
+                            <div className={styles.workText}>
                                 <h3>Project Name Here</h3>
                                 <span className={styles.category}>Illustartion</span>
                             </div>
                         </a>
                     </div>
-                    <div className={styles.slide} id="slide2">
-                        <img src="https://preview.colorlib.com/theme/expert/images/img_2.jpg.webp" className={styles.images} />
+                    <div className={styles.projectSlide} id="slide2">
+                        <img src="https://preview.colorlib.com/theme/expert/images/img_2.jpg.webp" className={styles.projectsImages} />
                     </div>
-                    <div className={styles.slide} id="slide3">
-                        <img src="https://preview.colorlib.com/theme/expert/images/img_3.jpg.webp" className={styles.images} />
+                    <div className={styles.projectSlide} id="slide3">
+                        <img src="https://preview.colorlib.com/theme/expert/images/img_3.jpg.webp" className={styles.projectsImages} />
                     </div>
-                    <div className={styles.slide} id="slide4">
-                        <img src="https://preview.colorlib.com/theme/expert/images/img_4.jpg.webp" className={styles.images} />
+                    <div className={styles.projectSlide} id="slide4">
+                        <img src="https://preview.colorlib.com/theme/expert/images/img_4.jpg.webp" className={styles.projectsImages} />
                     </div>
-                    <div className={styles.slide} id="slide1">
-                        <img src="https://preview.colorlib.com/theme/expert/images/img_1.jpg.webp" className={styles.images} />
+                    <div className={styles.projectSlide} id="slide1">
+                        <img src="https://preview.colorlib.com/theme/expert/images/img_1.jpg.webp" className={styles.projectsImages} />
                     </div>
-                    <div className={styles.slide} id="slide2">
-                        <img src="https://preview.colorlib.com/theme/expert/images/img_2.jpg.webp" className={styles.images} />
+                    <div className={styles.projectSlide} id="slide2">
+                        <img src="https://preview.colorlib.com/theme/expert/images/img_2.jpg.webp" className={styles.projectsImages} />
                     </div>
-                    <div className={styles.slide} id="slide3">
-                        <img src="https://preview.colorlib.com/theme/expert/images/img_3.jpg.webp" className={styles.images} />
+                    <div className={styles.projectSlide} id="slide3">
+                        <img src="https://preview.colorlib.com/theme/expert/images/img_3.jpg.webp" className={styles.projectsImages} />
                     </div>
-                    <div className={styles.slide} id="slide4">
-                        <img src="https://preview.colorlib.com/theme/expert/images/img_4.jpg.webp" className={styles.images} />
+                    <div className={styles.projectSlide} id="slide4">
+                        <img src="https://preview.colorlib.com/theme/expert/images/img_4.jpg.webp" className={styles.projectsImages} />
                     </div>
                 </div>
             </div>

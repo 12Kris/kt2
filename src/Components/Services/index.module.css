@@ -81,18 +81,26 @@
     box-shadow: 0 4px 30px -5px rgb(0 0 0 / 20%);
 }
 
-
-/* .element::before {
-    position: absolute;
-    content: "";
+.line {
     height: 7px;
+    width: 100%;
     background: #352961;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+/* 
+.line::before {
+    position: absolute;
+    height: 7px;
+    width: 30px;
+  
     top: 0;
     left: 0;
     z-index: 10;
 }
 
-.element::after {
+.line::after {
     background: #dc3545;
     width: 0;
     z-index: 2;
