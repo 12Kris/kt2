@@ -1,10 +1,9 @@
 .navbar {
-    height: 60px;
+    height: 70px;
     width: 100%;
-    background-color: var(--GeneralColor);
-    ;
+    background-color: white;
     position: fixed;
-    z-index: 3;
+    z-index: 6;
     top: 0;
 }
 
@@ -67,17 +66,9 @@ a:hover::after {
     color: white;
 }
 
-/* .li:hover {
-    text-decoration: underline;
-} */
-
 .li2 {
     margin-left: 290px;
 }
-
-/* .li2:hover {
-    text-decoration: underline;
-} */
 
 .li3 {
     margin-left: 0px;

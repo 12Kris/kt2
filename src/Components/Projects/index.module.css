@@ -56,51 +56,35 @@
 .slider .projectSlide {
   scroll-snap-align: start;
   flex: 100%;
+  position: relative;
 }
 
 .slider .slides::-webkit-scrollbar {
   display: none;
 }
 
-.projectSlide::after {
-  position: absolute;
-  /* top: 0; */
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: "";
-  background: rgba(53, 41, 97, 0.8);
-  z-index: 1;
-  transition: .3s all ease;
-}
-
 .projectSlide:hover {
   z-index: 3;
-  transform: scale(1.03);
+  background-size: 120;
 }
 
-.projectsImages .workText {
+.workText {
   position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  transform: translate(-50%, -50%);
-  transition: .3s all ease;
-  margin-top: 20px;
-}
-
-.projectsImages :hover .workText {
-  -webkit-transition-delay: .2s;
-  -o-transition-delay: .2s;
-  transition-delay: .2s;
-  opacity: 1;
-  visibility: visible;
-  margin-top: 0px;
-}
-
-.projectsImages .workText .category {
-  font-size: .8rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  background: rgba(53, 41, 97, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: rgba(255, 255, 255, 0.7);
-  text-transform: uppercase;
+  flex-direction: column;
+  opacity: 0;
+}
+
+.workText:hover {
+  opacity: 1;
+  transition-delay: 0.2s;
+  transition: 0.4s all cubic-bezier(0.17, 0.67, 0.52, 0.94);
 }

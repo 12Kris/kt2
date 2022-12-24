@@ -17,33 +17,76 @@ function Projects() {
             <div className={styles.slider}>
                 <div className={styles.slides}>
                     <div className={styles.projectSlide} id="slide1">
-                        <a src="https://preview.colorlib.com/theme/expert/images/img_1.jpg.webp" className={styles.images}>
+                        <img src="https://preview.colorlib.com/theme/expert/images/img_1.jpg.webp" className={styles.projectsImages} />
+                        <a>
                             <div className={styles.workText}>
                                 <h3>Project Name Here</h3>
-                                <span className={styles.category}>Illustartion</span>
+                                <span className={styles.category}>WEB DEVELONMENT</span>
                             </div>
                         </a>
                     </div>
                     <div className={styles.projectSlide} id="slide2">
                         <img src="https://preview.colorlib.com/theme/expert/images/img_2.jpg.webp" className={styles.projectsImages} />
+                        <a>
+                            <div className={styles.workText}>
+                                <h3>Project Name Here</h3>
+                                <span className={styles.category}>ILLUSTRATION</span>
+                            </div>
+                        </a>
                     </div>
                     <div className={styles.projectSlide} id="slide3">
                         <img src="https://preview.colorlib.com/theme/expert/images/img_3.jpg.webp" className={styles.projectsImages} />
+                        <a>
+                            <div className={styles.workText}>
+                                <h3>Project Name Here</h3>
+                                <span className={styles.category}>DESIGN</span>
+                            </div>
+                        </a>
                     </div>
                     <div className={styles.projectSlide} id="slide4">
                         <img src="https://preview.colorlib.com/theme/expert/images/img_4.jpg.webp" className={styles.projectsImages} />
+                        <a>
+                            <div className={styles.workText}>
+                                <h3>Project Name Here</h3>
+                                <span className={styles.category}>WEBSITE</span>
+                            </div>
+                        </a>
                     </div>
                     <div className={styles.projectSlide} id="slide1">
                         <img src="https://preview.colorlib.com/theme/expert/images/img_1.jpg.webp" className={styles.projectsImages} />
+                        <a>
+                            <div className={styles.workText}>
+                                <h3>Project Name Here</h3>
+                                <span className={styles.category}>WEB DEVELOPMENT</span>
+                            </div>
+                        </a>
                     </div>
                     <div className={styles.projectSlide} id="slide2">
                         <img src="https://preview.colorlib.com/theme/expert/images/img_2.jpg.webp" className={styles.projectsImages} />
+                        <a>
+                            <div className={styles.workText}>
+                                <h3>Project Name Here</h3>
+                                <span className={styles.category}>DESIGN</span>
+                            </div>
+                        </a>
                     </div>
                     <div className={styles.projectSlide} id="slide3">
                         <img src="https://preview.colorlib.com/theme/expert/images/img_3.jpg.webp" className={styles.projectsImages} />
+                        <a>
+                            <div className={styles.workText}>
+                                <h3>Project Name Here</h3>
+                                <span className={styles.category}>ILLUSTRATION</span>
+                            </div>
+                        </a>
                     </div>
                     <div className={styles.projectSlide} id="slide4">
                         <img src="https://preview.colorlib.com/theme/expert/images/img_4.jpg.webp" className={styles.projectsImages} />
+                        <a>
+                            <div className={styles.workText}>
+                                <h3>Project Name Here</h3>
+                                <span className={styles.category}>WEBSITE</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
